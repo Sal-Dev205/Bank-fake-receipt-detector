@@ -1,10 +1,10 @@
-# 🏦 Askari Bank — Receipt Fraud Detector
+# Askari Bank — Receipt Fraud Detector
 
 An AI-powered receipt authentication system that detects fraudulent Askari Bank fund transfer receipts using a combination of deep learning and rule-based analysis.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The system uses two layers of analysis combined into a single fraud score:
 
@@ -38,13 +38,13 @@ Tesseract OCR extracts text from the uploaded receipt image, which is then valid
 
 ---
 
-## 🖥️ Screenshots
+## Screenshots
 
 > Upload a receipt → get an instant verdict with a detailed breakdown of all 9 checks.
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -101,7 +101,7 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 askari-receipt-detector/
@@ -120,7 +120,7 @@ askari-receipt-detector/
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 | Tool | Purpose |
 |------|---------|
@@ -133,7 +133,7 @@ askari-receipt-detector/
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The `data/` folder and `askari_efficientnet.pth` are excluded from this repository via `.gitignore` due to size and privacy.
 - The app works without the trained model (proxy mode) but fine-tuning significantly improves accuracy.
